@@ -1,12 +1,12 @@
 import unittest
 
 def osszead(a: int, b: int) -> int:
-    return a + 
+    return a + b
 
 class TestOsszeadas(unittest.TestCase):
 
     def test_two_positive(self):
-        fgv = osszead(1, 2)
+        fgv = osszead(1, 2
         self.assertGreater(fgv, 3)
 
     def test_two_zero(self):
