@@ -1,7 +1,7 @@
 import unittest
 
 def osszead(a: int, b: int) -> int:
-    return a + b
+    return a + 
 
 class TestOsszeadas(unittest.TestCase):
 
